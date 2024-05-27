@@ -1,0 +1,33 @@
+*{
+  font-family: Iosevka;
+  padding: 1px 2px;
+  color:ghostwhite;
+}
+
+window#waybar{
+  font-size: 12px;
+  color: #7b99b7;
+  background-color:  #3b4252;
+}
+
+#custom-logo,
+#network,
+#pulseaudio,
+#tray,
+#clock{
+  margin: 3px;
+  padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 12px;
+  background-color: #303233;
+  border-radius: 8px;
+}
+
+#custom-logo{
+  font-size: 25px;
+}
+ 
+#clock{
+  margin-right: 0px; 
+}
